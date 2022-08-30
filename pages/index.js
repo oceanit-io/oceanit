@@ -25,7 +25,7 @@ export default function Home() {
             priority
           />
           <div>
-            <h1 className='text-4xl sm:text-6xl text-center'>Próximamente</h1>
+            <h1 className='text-4xl sm:text-6xl text-center text-white'>Próximamente</h1>
           </div>
           <div className='flex justify-between items-center m-5'>
 
