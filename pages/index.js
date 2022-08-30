@@ -15,6 +15,7 @@ export default function Home() {
       </Head>
 
       <main className='grid items-center justify-center w-screen h-screen' style={{
+        backgroundColor: '#0041c0',
         backgroundImage: `url(${img.src})`,
         backgroundSize: 'cover',
       }}>
@@ -22,6 +23,7 @@ export default function Home() {
           <Image
             src={logo}
             alt='logo'
+            placeholder='blur'
             priority
           />
           <div>
@@ -32,7 +34,8 @@ export default function Home() {
             <div className='mr-2'>
               <Image
                 src={boton1}
-                alt='logo'
+                alt='boton app'
+                placeholder='blur'
                 priority
               />
             </div>
@@ -40,7 +43,8 @@ export default function Home() {
             <div className='ml-2'>
               <Image
                 src={boton2}
-                alt='logo'
+                alt='boton app'
+                placeholder='blur'
                 priority
               />
             </div>
