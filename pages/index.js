@@ -4,6 +4,9 @@ import img from '../public/images/fondo.png'
 import logo from '../public/images/logo-oceanit.png'
 import boton1 from '../public/images/boton_1.png'
 import boton2 from '../public/images/boton_2.png'
+import Masthead from '../components/masthead'
+import AboutUs from '../components/aboutus'
+import FooterMain from '../components/FooterMain'
 
 export default function Home() {
   return (
@@ -14,12 +17,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='grid items-center justify-center w-screen h-screen' style={{
-        backgroundColor: '#0041c0',
-        backgroundImage: `url(${img.src})`,
-        backgroundSize: 'cover',
-      }}>
-        <div className='mx-auto mx-9'>
+      <main>
+
+        <Masthead />
+        <AboutUs />
+
+        {/* <div className='mx-auto mx-9'>
           <Image
             src={logo}
             alt='logo'
@@ -50,9 +53,8 @@ export default function Home() {
             </div>
 
           </div>
-        </div>
-
-
+        </div> */}
+        <FooterMain />
       </main>
     </div>
   )
