@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import ScrollObserver from '../utils/scroll-observer'
 import { useScroll, useSpring, motion } from 'framer-motion';
+import SizeObserver from '../utils/size-observer';
 
 function MyApp({ Component, pageProps }) {
 
@@ -12,20 +13,22 @@ function MyApp({ Component, pageProps }) {
   });
 
   return (
-    <ScrollObserver>
-      <motion.div style={{
-        scaleX,
-        position: 'fixed',
-        top: 0,
-        left: 0,
-        right: 0,
-        height: '5px',
-        background: '#FE824F',
-        transformOrigin: '0%',
-        zIndex: 100
-  }} />
-      <Component {...pageProps} />
-    </ScrollObserver>
+    <SizeObserver>
+      <ScrollObserver>
+        <motion.div style={{
+          scaleX,
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          right: 0,
+          height: '5px',
+          background: '#FE824F',
+          transformOrigin: '0%',
+          zIndex: 100
+        }} />
+        <Component {...pageProps} />
+      </ScrollObserver>
+    </SizeObserver>
   )
 }
 

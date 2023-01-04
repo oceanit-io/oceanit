@@ -7,6 +7,7 @@ import boton2 from '../public/images/boton_2.png'
 import Masthead from '../components/masthead'
 import AboutUs from '../components/aboutus'
 import FooterMain from '../components/FooterMain'
+import Techs from '../components/Techs'
 
 export default function Home() {
   return (
@@ -21,39 +22,7 @@ export default function Home() {
 
         <Masthead />
         <AboutUs />
-
-        {/* <div className='mx-auto mx-9'>
-          <Image
-            src={logo}
-            alt='logo'
-            placeholder='blur'
-            priority
-          />
-          <div>
-            <h1 className='text-4xl sm:text-6xl text-center text-white'>Próximamente</h1>
-          </div>
-          <div className='flex justify-between items-center m-5'>
-
-            <div className='mr-2'>
-              <Image
-                src={boton1}
-                alt='boton app'
-                placeholder='blur'
-                priority
-              />
-            </div>
-
-            <div className='ml-2'>
-              <Image
-                src={boton2}
-                alt='boton app'
-                placeholder='blur'
-                priority
-              />
-            </div>
-
-          </div>
-        </div> */}
+        <Techs />
         <FooterMain />
       </main>
     </div>
