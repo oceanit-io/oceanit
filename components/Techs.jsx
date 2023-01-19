@@ -14,8 +14,8 @@ const Techs = () => {
         <Logos />
         <Logos2 />
       </div>
-      <div className="flex flex-col justify-center items-center">
-        <div className="container mx-auto lg:max-w-[70%] lg:px-10 text-[#252525]">
+      <div className="flex flex-col justify-center items-center bg-[#0038B8]">
+        <div className="container mx-auto lg:max-w-[70%] lg:px-10 text-white">
           <h3 className="text-2xl lg:text-3xl tracking-tight px-10 !leading-[3rem] md:!leading-[3.5rem] pb-9 text-justify">
             Nos especializamos en el desarrollo de aplicaciones de alta calidad
             utilizando las últimas tecnologías y herramientas de vanguardia.

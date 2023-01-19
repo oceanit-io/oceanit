@@ -2,10 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  background-color: #ffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0038B8;
+}
+
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Space Grotesk', sans-serif;
-  background-color: #0038B8;
+  font-family: "Space Grotesk", sans-serif;
+  background-color: #0038b8;
   box-sizing: border-box;
 }
