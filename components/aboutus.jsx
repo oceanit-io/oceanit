@@ -32,7 +32,7 @@ const AboutUs = () => {
             Nuestro Equipo
           </h1>
         </div>
-        <div className="mt-2 text-2xl sm:text-4xl mx-auto text-white">
+        <div className="mt-8 text-2xl sm:text-4xl mx-auto text-white">
           Conoce Nuestro Dedicado y Creativo Equipo
         </div>
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-6 ">
@@ -71,16 +71,13 @@ const AboutUs = () => {
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full px-4">
                       <p className="font-light leading-relaxed text-slate-600 mb-4 text-sm">
-                        La CEO de nuestra empresa de servicios digitales es una
-                        líder visionaria con una amplia experiencia en el campo
-                        de la tecnología y los negocios. Con una mentalidad
-                        emprendedora y una fuerte orientación al cliente, ha
-                        liderado al equipo en el desarrollo y la implementación
-                        de estrategias innovadoras para ayudar a nuestros
-                        clientes a alcanzar sus objetivos digitales. Su pasión
-                        por la tecnología y su compromiso con el éxito de
-                        nuestros clientes la convierten en una valiosa asset
-                        para nuestro equipo.
+                        La CEO de la empresa de servicios digitales es una líder
+                        experimentada con un enfoque emprendedor y orientado al
+                        cliente, que ha liderado el desarrollo de estrategias
+                        innovadoras para ayudar a los clientes a alcanzar sus
+                        objetivos digitales. Con pasión por la tecnología y
+                        compromiso con el éxito de los clientes, es un valioso
+                        activo para el equipo.
                       </p>
 
                       <div className="flex justify-center">
@@ -135,18 +132,13 @@ const AboutUs = () => {
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full px-4">
                       <p className="font-light leading-relaxed text-slate-600 mb-4 text-sm">
-                        Nuestro desarrollador de la empresa es un experto
-                        técnico con una amplia experiencia en el desarrollo de
-                        software y soluciones digitales. Con una sólida
-                        formación en programación y una gran habilidad para
-                        trabajar en equipo, ha contribuido significativamente al
-                        éxito de nuestros proyectos. Su conocimiento en una
-                        variedad de lenguajes de programación y plataformas
-                        tecnológicas nos permite ofrecer soluciones altamente
-                        personalizadas y eficaces para nuestros clientes.
-                        Además, su enfoque en la calidad y la escalabilidad
-                        garantiza que nuestros productos y servicios sean
-                        sólidos y escalables.
+                        El desarrollador de la empresa es un experto en software
+                        y soluciones digitales con una sólida formación en
+                        programación y habilidades en trabajo en equipo. Ofrece
+                        soluciones personalizadas y eficaces gracias a su amplio
+                        conocimiento en diversos lenguajes de programación y
+                        plataformas tecnológicas, y garantiza la calidad y
+                        escalabilidad de los productos y servicios.
                       </p>
 
                       <div className="flex justify-center">
@@ -201,16 +193,14 @@ const AboutUs = () => {
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full px-4">
                       <p className="font-light leading-relaxed text-slate-600 mb-4 text-sm">
-                        La creative strategist de nuestra empresa es una experta
-                        en marketing y diseño con una amplia experiencia en la
-                        creación de estrategias y campañas publicitarias
-                        exitosas. Con una sólida formación en diseño y una gran
-                        habilidad para entender las necesidades y objetivos de
-                        nuestros clientes, ella es responsable de diseñar y
-                        ejecutar estrategias creativas para ayudar a nuestros
-                        clientes a alcanzar sus metas de negocio. Su enfoque en
-                        la innovación y la eficacia la convierten en una valiosa
-                        asset para nuestro equipo y nuestros clientes.
+                        La Creative Strategist es experta en marketing y diseño
+                        con experiencia en creación de estrategias publicitarias
+                        exitosas. Tiene formación en diseño y capacidad para
+                        entender necesidades de los clientes, diseñando y
+                        ejecutando estrategias creativas para ayudar a alcanzar
+                        objetivos de negocio. Enfoque en innovación y eficacia
+                        la convierte en un valioso activo para el equipo y
+                        clientes.
                       </p>
 
                       <div className="flex justify-center">
@@ -265,18 +255,14 @@ const AboutUs = () => {
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full px-4">
                       <p className="font-light leading-relaxed text-slate-600 mb-4 text-sm">
-                        La diseñadora gráfica de nuestra empresa es una artista
-                        talentosa con una amplia experiencia en el diseño de
-                        medios visuales. Con una sólida formación en diseño
-                        gráfico y una gran habilidad para entender las
-                        necesidades y objetivos de nuestros clientes, ella es
-                        responsable de crear diseños atractivos y efectivos para
-                        nuestros proyectos. Su enfoque en la estética y la
-                        usabilidad la convierten en una valiosa asset para
-                        nuestro equipo y nuestros clientes. Su experiencia en la
-                        creación de contenido visual para diferentes medios,
-                        desde impresos hasta digitales, hace de ella una valiosa
-                        adición para nuestra empresa y nuestros clientes.
+                        La diseñadora gráfica es talentosa y experimentada en el
+                        diseño de medios visuales. Con habilidades para entender
+                        las necesidades de los clientes, crea diseños atractivos
+                        y efectivos. Su enfoque en estética y usabilidad la
+                        convierte en un activo valioso para la empresa y sus
+                        clientes. Además, es experta en creación de contenido
+                        visual para medios impresos y digitales. Su experiencia
+                        en el campo la hace una valiosa adición para la empresa.
                       </p>
 
                       <div className="flex justify-center">
