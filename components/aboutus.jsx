@@ -71,13 +71,11 @@ const AboutUs = () => {
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full px-4">
                       <p className="font-light leading-relaxed text-slate-600 mb-4 text-sm">
-                        La CEO de la empresa de servicios digitales es una líder
-                        experimentada con un enfoque emprendedor y orientado al
-                        cliente, que ha liderado el desarrollo de estrategias
-                        innovadoras para ayudar a los clientes a alcanzar sus
-                        objetivos digitales. Con pasión por la tecnología y
-                        compromiso con el éxito de los clientes, es un valioso
-                        activo para el equipo.
+                        La CEO de Ocean IT es una líder experimentada con un
+                        enfoque emprendedor y orientado al cliente, que ha
+                        liderado el desarrollo de estrategias innovadoras para
+                        ayudar a los clientes a alcanzar sus objetivos
+                        digitales.
                       </p>
 
                       <div className="flex justify-center">
@@ -132,13 +130,11 @@ const AboutUs = () => {
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full px-4">
                       <p className="font-light leading-relaxed text-slate-600 mb-4 text-sm">
-                        El desarrollador de la empresa es un experto en software
-                        y soluciones digitales con una sólida formación en
-                        programación y habilidades en trabajo en equipo. Ofrece
-                        soluciones personalizadas y eficaces gracias a su amplio
-                        conocimiento en diversos lenguajes de programación y
-                        plataformas tecnológicas, y garantiza la calidad y
-                        escalabilidad de los productos y servicios.
+                        Nuestro desarrollador ofrece soluciones personalizadas y
+                        eficaces gracias a su amplio conocimiento en diversos
+                        lenguajes de programación y plataformas tecnológicas, y
+                        garantiza la calidad y escalabilidad de los productos y
+                        servicios.
                       </p>
 
                       <div className="flex justify-center">
@@ -193,14 +189,11 @@ const AboutUs = () => {
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full px-4">
                       <p className="font-light leading-relaxed text-slate-600 mb-4 text-sm">
-                        La Creative Strategist es experta en marketing y diseño
-                        con experiencia en creación de estrategias publicitarias
-                        exitosas. Tiene formación en diseño y capacidad para
-                        entender necesidades de los clientes, diseñando y
-                        ejecutando estrategias creativas para ayudar a alcanzar
-                        objetivos de negocio. Enfoque en innovación y eficacia
-                        la convierte en un valioso activo para el equipo y
-                        clientes.
+                        Nuestra Creative Strategist es experta en marketing y
+                        diseño con experiencia en creación de estrategias
+                        publicitarias exitosas. Diseñando y ejecutando
+                        estrategias creativas para ayudar a alcanzar objetivos
+                        de negocio.
                       </p>
 
                       <div className="flex justify-center">
@@ -255,14 +248,11 @@ const AboutUs = () => {
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full px-4">
                       <p className="font-light leading-relaxed text-slate-600 mb-4 text-sm">
-                        La diseñadora gráfica es talentosa y experimentada en el
-                        diseño de medios visuales. Con habilidades para entender
-                        las necesidades de los clientes, crea diseños atractivos
-                        y efectivos. Su enfoque en estética y usabilidad la
-                        convierte en un activo valioso para la empresa y sus
-                        clientes. Además, es experta en creación de contenido
-                        visual para medios impresos y digitales. Su experiencia
-                        en el campo la hace una valiosa adición para la empresa.
+                        Talentosa y experimentada en el diseño de medios
+                        visuales. Crea diseños atractivos y efectivos. Además,
+                        es experta en creación de contenido visual para medios
+                        impresos y digitales. Su experiencia en el campo la hace
+                        una valiosa profesional.
                       </p>
 
                       <div className="flex justify-center">

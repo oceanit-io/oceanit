@@ -9,6 +9,7 @@ import AboutUs from '../components/aboutus'
 import FooterMain from '../components/FooterMain'
 import Techs from '../components/Techs'
 import Skills from '../components/skills'
+import Works from '../components/works'
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <Masthead />
         <AboutUs />
         <Skills />
+        <Works />
         <Techs />
         <FooterMain />
       </main>
