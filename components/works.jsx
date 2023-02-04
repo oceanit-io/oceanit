@@ -4,6 +4,8 @@ import { Tile, TileBackground, TileContent, TileWrapper } from "./tile";
 import { WorkBackground, WorkContainer, WorkLeft, WorkRight } from "./work";
 import movil from "../public/images/movil.png";
 import web from "../public/images/web.png";
+import automatization from "../public/images/automatization.png";
+import marketing from "../public/images/marketing.png";
 
 const Works = () => {
   return (
@@ -69,6 +71,14 @@ const Works = () => {
                   </div>
                 </div>
               </WorkLeft>
+              <WorkRight progress={progress}>
+                <Image
+                  src={marketing}
+                  width={432}
+                  height={862}
+                  alt="Trabajos"
+                />
+              </WorkRight>
             </WorkContainer>
           )}
         ></Tile>
@@ -87,6 +97,14 @@ const Works = () => {
                   </div>
                 </div>
               </WorkLeft>
+              <WorkRight progress={progress}>
+                <Image
+                  src={automatization}
+                  width={432}
+                  height={862}
+                  alt="Trabajos"
+                />
+              </WorkRight>
             </WorkContainer>
           )}
         ></Tile>
