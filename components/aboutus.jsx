@@ -4,7 +4,7 @@ import { BsLinkedin, BsInstagram, BsGithub } from "react-icons/bs";
 const AboutUs = () => {
   return (
     <section
-      className={`flex flex-col bg-[#0038B899] py-20 text-3xl md:text-4xl backdrop-blur-md border-t-gray-400 border-t backdrop-filter`}
+      className={`flex flex-col bg-[#0038B899] pt-20 pb-24 text-3xl md:text-4xl backdrop-blur-md border-t-gray-400 border-t backdrop-filter -mb-24`}
     >
       <div className="cotainer mx-auto px-11">
         <p className="leading-normal sm:leading-normal max-w-5xl mx-auto text-3xl sm:text-4xl tracking-tight ">

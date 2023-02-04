@@ -11,8 +11,8 @@ export const WorkContainer = ({ children }) => {
 export const WorkBackground = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 w-full min-h-screen top-0 sticky">
-      <div className="bg-[#0038B8] h-[30vh] lg:h-auto"></div>
-      <div className="bg-white h-[70vh] lg:min-h-screen"></div>
+      <div className="bg-white h-[30vh] lg:h-auto"></div>
+      <div className="bg-[#0038B8] h-[70vh] lg:min-h-screen"></div>
     </div>
   );
 };
@@ -22,7 +22,7 @@ export const WorkLeft = ({ children, progress }) => {
   if (progress > 0.85) translateY = Math.max(-50, -(progress - 0.85) * 2 * 50);
   return (
     <div
-      className="flex flex-col items-center justify-center text-3xl lg:text-3xl h-[30vh] lg:h-auto"
+      className="flex flex-col items-center justify-center text-3xl lg:text-3xl h-[30vh] lg:h-auto text-gray-900 px-16"
       style={{
         transform: `translateY(${translateY}px)`,
       }}

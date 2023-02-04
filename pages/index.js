@@ -10,6 +10,8 @@ import FooterMain from '../components/FooterMain'
 import Techs from '../components/Techs'
 import Skills from '../components/skills'
 import Works from '../components/works'
+import Nav from '../components/navbar'
+import ContactUs from '../components/contactus'
 
 export default function Home() {
   return (
@@ -20,14 +22,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Nav />
       <main>
         <Masthead />
         <AboutUs />
         <Skills />
         <Works />
         <Techs />
-        <FooterMain />
+        <ContactUs />
       </main>
+      <FooterMain />
     </div>
   )
 }

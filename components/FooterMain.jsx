@@ -5,7 +5,7 @@ import logoAzul from "../public/images/logo-oceanit-blue.png";
 
 const FooterMain = () => {
   return (
-    <div>
+    <div className="bg-[#001138]">
       <Footer container={true}>
         <div className="w-full">
           <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
@@ -18,25 +18,25 @@ const FooterMain = () => {
               />
             </div>
             <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
-              <div>
+              {/* <div>
                 <Footer.Title title="about" />
                 <Footer.LinkGroup col={true}>
                   <Footer.Link href="#">Flowbite</Footer.Link>
                   <Footer.Link href="#">Tailwind CSS</Footer.Link>
                 </Footer.LinkGroup>
-              </div>
+              </div> */}
               <div>
-                <Footer.Title title="Follow us" />
+                <Footer.Title title="Síguenos" />
                 <Footer.LinkGroup col={true}>
+                  <Footer.Link href="#">Instagram</Footer.Link>
                   <Footer.Link href="#">Github</Footer.Link>
-                  <Footer.Link href="#">Discord</Footer.Link>
                 </Footer.LinkGroup>
               </div>
               <div>
-                <Footer.Title title="Legal" />
+                <Footer.Title title="Idioma" />
                 <Footer.LinkGroup col={true}>
-                  <Footer.Link href="#">Privacy Policy</Footer.Link>
-                  <Footer.Link href="#">Terms & Conditions</Footer.Link>
+                  <Footer.Link href="#">Español</Footer.Link>
+                  <Footer.Link href="#">Ingles</Footer.Link>
                 </Footer.LinkGroup>
               </div>
             </div>

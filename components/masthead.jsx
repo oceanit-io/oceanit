@@ -76,7 +76,7 @@ const Masthead = () => {
       </motion.div>
 
       <motion.div
-        className="-mt-9 -mb-9 relative flex overflow-x-hidden overflow-y-hidden"
+        className="-mt-24 -mb-24 sm:-mt-9 sm:-mb-9 relative flex overflow-x-hidden overflow-y-hidden"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 2 }}
