@@ -4,6 +4,14 @@ import img from '../public/images/fondo.png'
 import logo from '../public/images/logo-oceanit.png'
 import boton1 from '../public/images/boton_1.png'
 import boton2 from '../public/images/boton_2.png'
+import Masthead from '../components/masthead'
+import AboutUs from '../components/aboutus'
+import FooterMain from '../components/FooterMain'
+import Techs from '../components/Techs'
+import Skills from '../components/skills'
+import Works from '../components/works'
+import Nav from '../components/navbar'
+import ContactUs from '../components/contactus'
 
 export default function Home() {
   return (
@@ -14,46 +22,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='grid items-center justify-center w-screen h-screen' style={{
-        backgroundColor: '#0041c0',
-        backgroundImage: `url(${img.src})`,
-        backgroundSize: 'cover',
-      }}>
-        <div className='mx-auto mx-9'>
-          <Image
-            src={logo}
-            alt='logo'
-            placeholder='blur'
-            priority
-          />
-          <div>
-            <h1 className='text-4xl sm:text-6xl text-center text-white'>Próximamente</h1>
-          </div>
-          <div className='flex justify-between items-center m-5'>
-
-            <div className='mr-2'>
-              <Image
-                src={boton1}
-                alt='boton app'
-                placeholder='blur'
-                priority
-              />
-            </div>
-
-            <div className='ml-2'>
-              <Image
-                src={boton2}
-                alt='boton app'
-                placeholder='blur'
-                priority
-              />
-            </div>
-
-          </div>
-        </div>
-
-
+      <Nav />
+      <main>
+        <Masthead />
+        <AboutUs />
+        <Skills />
+        <Works />
+        <Techs />
+        <ContactUs />
       </main>
+      <FooterMain />
     </div>
   )
 }
