@@ -4,7 +4,7 @@ import SliderContainer, { SliderItem } from "./slider";
 import logo from "../public/images/react-logo.png";
 import nextjs from "../public/images/nextjs.png";
 import aws from "../public/images/aws.png";
-import gCloud from "../public/images/gCloud.png";
+import gCloud from "../public/images/Gcloud.png";
 import flutter from "../public/images/flutter.png";
 import node from "../public/images/node.png";
 import android from "../public/images/android.png";
