@@ -4,12 +4,12 @@ import Logos2 from "./logos2";
 
 const Techs = () => {
   return (
-    <section className="bg-white min-h-screen flex flex-col justify-center gap-16 md:gap-28">
+    <section className="bg-white min-h-screen flex flex-col justify-center gap-16 md:gap-28" id="tech">
       <div className="flex-1"></div>
       <div className="flex flex-col justiy-center items-center">
         <h3 className="text-4xl sm:text-6xl mb-16 md:mb-28 font-bold text-center px-11 text-[#252525] lg:max-w-[70%]">
           <span>Siempre actualizados con las</span>{" "}
-          <span>ultimas tecnologias</span>
+          <span>últimas tecnologías</span>
         </h3>
         <Logos />
         <Logos2 />

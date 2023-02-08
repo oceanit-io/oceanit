@@ -31,6 +31,7 @@ export const TileWrapper = ({ children, numOfPages }) => {
         ref={refContainer}
         className="relative bg-black text-white"
         style={{ height: numOfPages * 100 + "vh" }}
+        id="services"
       >
         <div>{children}</div>
       </div>

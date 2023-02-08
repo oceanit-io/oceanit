@@ -4,7 +4,7 @@ import logo from "../public/images/logo-oceanit.png";
 
 const ContactUs = () => {
   return (
-    <div className="bg-[#001138] text-white flex flex-col justify-center pt-10 min-h-screen pb-16">
+    <div className="bg-[#001138] text-white flex flex-col justify-center pt-10 min-h-screen pb-16" id="contact">
       <div className="flex-1 flex flex-col justify-center items-center pt-10 lg:pt-6">
         <div className="pb-10">
           <Image src={logo} width={110} height={20} alt="logo oceanit" />

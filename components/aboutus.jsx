@@ -5,6 +5,7 @@ const AboutUs = () => {
   return (
     <section
       className={`flex flex-col bg-[#0038B899] pt-20 pb-24 text-3xl md:text-4xl backdrop-blur-md border-t-gray-400 border-t backdrop-filter -mb-24`}
+      id="abouts"
     >
       <div className="cotainer mx-auto px-11">
         <p className="leading-normal sm:leading-normal max-w-5xl mx-auto text-3xl sm:text-4xl tracking-tight ">
@@ -251,7 +252,7 @@ const AboutUs = () => {
                         Talentosa y experimentada en el diseño de medios
                         visuales. Crea diseños atractivos y efectivos. Además,
                         es experta en creación de contenido visual para medios
-                        impresos y digitales. Su experiencia en el campo la hace
+                        impresos y digitales. Su experiencia la hace
                         una valiosa profesional.
                       </p>
 
