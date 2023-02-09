@@ -15,92 +15,92 @@ import analitycs from "../public/images/analytics.png";
 const Logos = () => (
   <>
     <SliderContainer className="" contentWidth={1920} initialOffsetX={0}>
-      <SliderItem width={225}>
+      <SliderItem width={150}>
         <Image
           src={logo}
-          width={225}
-          height={80}
+          width={150}
+          height={50}
           alt="tech logo"
           objectFit="contain"
         />
       </SliderItem>
-      <SliderItem width={225}>
+      <SliderItem width={150}>
         <Image
           src={nextjs}
-          width={225}
-          height={80}
+          width={150}
+          height={50}
           alt="tech logo"
           objectFit="contain"
         />
       </SliderItem>
-      <SliderItem width={225}>
+      <SliderItem width={150}>
         <Image
           src={aws}
-          width={225}
-          height={80}
+          width={150}
+          height={50}
           alt="tech logo"
           objectFit="contain"
         />
       </SliderItem>
-      <SliderItem width={225}>
+      <SliderItem width={150}>
         <Image
           src={gCloud}
-          width={225}
-          height={80}
+          width={150}
+          height={50}
           alt="tech logo"
           objectFit="contain"
         />
       </SliderItem>
-      <SliderItem width={225}>
+      <SliderItem width={150}>
         <Image
           src={flutter}
-          width={225}
-          height={80}
+          width={150}
+          height={50}
           alt="tech logo"
           objectFit="contain"
         />
       </SliderItem>
-      <SliderItem width={225}>
+      <SliderItem width={150}>
         <Image
           src={node}
-          width={225}
-          height={80}
+          width={150}
+          height={50}
           alt="tech logo"
           objectFit="contain"
         />
       </SliderItem>
-      <SliderItem width={225}>
+      <SliderItem width={150}>
         <Image
           src={android}
-          width={225}
-          height={80}
+          width={150}
+          height={50}
           alt="tech logo"
           objectFit="contain"
         />
       </SliderItem>
-      <SliderItem width={225}>
+      <SliderItem width={150}>
         <Image
           src={ios}
-          width={225}
-          height={80}
+          width={150}
+          height={50}
           alt="tech logo"
           objectFit="contain"
         />
       </SliderItem>
-      <SliderItem width={225}>
+      <SliderItem width={150}>
         <Image
           src={vercel}
-          width={225}
-          height={80}
+          width={150}
+          height={50}
           alt="tech logo"
           objectFit="contain"
         />
       </SliderItem>
-      <SliderItem width={225}>
+      <SliderItem width={150}>
         <Image
           src={analitycs}
-          width={225}
-          height={80}
+          width={150}
+          height={50}
           alt="tech logo"
           objectFit="contain"
         />

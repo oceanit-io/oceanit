@@ -31,17 +31,20 @@ const Nav = () => {
           />
         </Navbar.Brand>
         <div className="flex md:order-2">
-          <Button>Contactanos</Button>
+          <Button>
+            {" "}
+            <a href="#contact">Contactanos</a>
+          </Button>
           <Navbar.Toggle />
         </div>
         <Navbar.Collapse>
-          <Navbar.Link href="/navbars" active={true}>
+          <Navbar.Link href="#" active={true}>
             Inicio
           </Navbar.Link>
-          <Navbar.Link href="/navbars">Nosotros</Navbar.Link>
-          <Navbar.Link href="/navbars">Servicios</Navbar.Link>
-          <Navbar.Link href="/navbars">Tecnología</Navbar.Link>
-          <Navbar.Link href="/navbars">Testimonios</Navbar.Link>
+          <Navbar.Link href="#abouts">Nosotros</Navbar.Link>
+          <Navbar.Link href="#services">Servicios</Navbar.Link>
+          <Navbar.Link href="#tech">Tecnología</Navbar.Link>
+          <Navbar.Link href="#testimonials">Testimonios</Navbar.Link>
         </Navbar.Collapse>
       </Navbar>
     </div>
