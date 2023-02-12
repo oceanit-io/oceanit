@@ -53,7 +53,7 @@ const Masthead = () => {
       </div>
 
       <motion.div
-        className={`mt-9 sm:mt-0 p-12 font-bold z-10 text-white flex-1 flex items-start justify-center flex-col`}
+        className={`mt-3 sm:mt-0 p-12 font-bold z-10 text-white flex-1 flex items-start justify-center flex-col`}
         initial={{ opacity: 0, x: -100 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 2 }}
