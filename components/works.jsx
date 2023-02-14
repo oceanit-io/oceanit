@@ -98,12 +98,14 @@ const Works = () => {
                 </div>
               </WorkLeft>
               <WorkRight progress={progress}>
-                <Image
-                  src={automatization}
-                  width={432}
-                  height={862}
-                  alt="Trabajos"
-                />
+                <div className="mb-16 md:mb-0">
+                  <Image
+                    src={automatization}
+                    width={432}
+                    height={862}
+                    alt="Trabajos"
+                  />
+                </div>
               </WorkRight>
             </WorkContainer>
           )}
