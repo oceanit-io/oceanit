@@ -49,8 +49,15 @@ const Works = () => {
                 </div>
               </WorkLeft>
               <WorkRight progress={progress}>
-                <div className="w-[225%] -ml-[280px]">
-                  <Image src={web} alt="Trabajos" layout="responsive" />
+                <div className="w-[150%] sm:w-[200%] -ml-[70px] sm:-ml-[200px] -mt-[200px] sm:mt-[40px] sm:mb-0">
+                  <Image
+                    src={web}
+                    alt="Trabajos"
+                    layout="responsive"
+                    width={840}
+                    height={1620}
+                    quality={100}
+                  />
                 </div>
               </WorkRight>
             </WorkContainer>
@@ -72,12 +79,14 @@ const Works = () => {
                 </div>
               </WorkLeft>
               <WorkRight progress={progress}>
-                <Image
-                  src={marketing}
-                  width={432}
-                  height={862}
-                  alt="Trabajos"
-                />
+                <div className="w-[80%] ml-[28px] mt-24">
+                  <Image
+                    src={marketing}
+                    width={432}
+                    height={862}
+                    alt="Trabajos"
+                  />
+                </div>
               </WorkRight>
             </WorkContainer>
           )}
@@ -98,7 +107,7 @@ const Works = () => {
                 </div>
               </WorkLeft>
               <WorkRight progress={progress}>
-                <div className="mb-16 md:mb-0">
+                <div className="-mt-[140px] sm:-mt-[0px]">
                   <Image
                     src={automatization}
                     width={432}
