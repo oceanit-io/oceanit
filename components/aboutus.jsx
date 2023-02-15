@@ -72,7 +72,7 @@ const AboutUs = () => {
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full px-4">
                       <p className="font-light leading-relaxed text-slate-600 mb-4 text-sm">
-                        La CEO de Ocean IT es una líder experimentada con un
+                        "Gaby" la CEO de Ocean IT es una líder experimentada con un
                         enfoque emprendedor y orientado al cliente, que ha
                         liderado el desarrollo de estrategias innovadoras para
                         ayudar a los clientes a alcanzar sus objetivos
