@@ -44,7 +44,7 @@ const Nav = () => {
           <Navbar.Link href="#abouts">Nosotros</Navbar.Link>
           <Navbar.Link href="#services">Servicios</Navbar.Link>
           <Navbar.Link href="#tech">Tecnología</Navbar.Link>
-          <Navbar.Link href="#testimonials">Testimonios</Navbar.Link>
+          <Navbar.Link href="#testimonials">Testimonios <span className="text-gray-300">- Proximamente</span></Navbar.Link>
         </Navbar.Collapse>
       </Navbar>
     </div>
