@@ -4,6 +4,7 @@ import { Tile, TileBackground, TileContent, TileWrapper } from "./tile";
 import { WorkBackground, WorkContainer, WorkLeft, WorkRight } from "./work";
 import movil from "../public/images/movil.png";
 import web from "../public/images/web.png";
+import webResponsive from "../public/images/webResponsive.png";
 import automatization from "../public/images/automatization.png";
 import marketing from "../public/images/marketing.png";
 
@@ -49,9 +50,19 @@ const Works = () => {
                 </div>
               </WorkLeft>
               <WorkRight progress={progress}>
-                <div className="w-[150%] sm:w-[200%] -ml-[70px] sm:-ml-[200px] -mt-[200px] sm:mt-[40px] sm:mb-0">
+                <div className="hidden sm:block w-[200%] sm:w-[200%] -ml-[145px] sm:-ml-[200px] -mt-[350px] sm:mt-[40px] sm:mb-0">
                   <Image
                     src={web}
+                    alt="Trabajos"
+                    layout="responsive"
+                    width={840}
+                    height={1620}
+                    quality={100}
+                  />
+                </div>
+                <div className="sm:hidden sm:w-[80%] sm:ml-[28px] sm:mt-24">
+                  <Image
+                    src={webResponsive}
                     alt="Trabajos"
                     layout="responsive"
                     width={840}

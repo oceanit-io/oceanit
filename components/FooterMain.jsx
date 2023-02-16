@@ -28,8 +28,8 @@ const FooterMain = () => {
               <div>
                 <Footer.Title title="Síguenos" />
                 <Footer.LinkGroup col={true}>
-                  <Footer.Link href="#">Instagram</Footer.Link>
-                  <Footer.Link href="#">Github</Footer.Link>
+                  <Footer.Link href="https://www.instagram.com/oceanit.io/">Instagram</Footer.Link>
+                  <Footer.Link href="https://github.com/oceanit-io">Github</Footer.Link>
                 </Footer.LinkGroup>
               </div>
               <div>
@@ -43,12 +43,12 @@ const FooterMain = () => {
           </div>
           <Footer.Divider />
           <div className="w-full sm:flex sm:items-center sm:justify-between">
-            <Footer.Copyright href="#" by="Oceantit™" year={2022} />
+            <Footer.Copyright href="#" by="Oceantit™" year={2023} />
             <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-              <Footer.Icon href="#" icon={BsFacebook} />
-              <Footer.Icon href="#" icon={BsInstagram} />
-              <Footer.Icon href="#" icon={BsTwitter} />
-              <Footer.Icon href="#" icon={BsGithub} />
+              {/* <Footer.Icon href="#" icon={BsFacebook} /> */}
+              <Footer.Icon href="https://www.instagram.com/oceanit.io/" icon={BsInstagram} />
+              {/* <Footer.Icon href="#" icon={BsTwitter} /> */}
+              <Footer.Icon href="https://github.com/oceanit-io" icon={BsGithub} />
             </div>
           </div>
         </div>
