@@ -27,7 +27,7 @@ const Works = () => {
                 </div>
               </WorkLeft>
               <WorkRight progress={progress}>
-                <div className="w-[80%] ml-[28px] sm:mt-24">
+                <div className="sm:w-[80%] sm:ml-[28px] sm:mt-24">
                   <Image src={movil} width={432} height={862} alt="Trabajos" />
                 </div>
               </WorkRight>
