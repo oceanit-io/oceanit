@@ -72,11 +72,11 @@ const AboutUs = () => {
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full px-4">
                       <p className="font-light leading-relaxed text-slate-600 mb-4 text-sm">
-                        La CEO de Ocean IT es una líder experimentada con un
-                        enfoque emprendedor y orientado al cliente, que ha
-                        liderado el desarrollo de estrategias innovadoras para
-                        ayudar a los clientes a alcanzar sus objetivos
-                        digitales.
+                        &#34;Gaby&#34; la CEO de Ocean IT es una líder
+                        experimentada con un enfoque emprendedor y orientado al
+                        cliente, que ha liderado el desarrollo de estrategias
+                        innovadoras para ayudar a los clientes a alcanzar sus
+                        objetivos digitales.
                       </p>
 
                       <div className="flex justify-center">
@@ -252,8 +252,8 @@ const AboutUs = () => {
                         Talentosa y experimentada en el diseño de medios
                         visuales. Crea diseños atractivos y efectivos. Además,
                         es experta en creación de contenido visual para medios
-                        impresos y digitales. Su experiencia la hace
-                        una valiosa profesional.
+                        impresos y digitales. Su experiencia la hace una valiosa
+                        profesional.
                       </p>
 
                       <div className="flex justify-center">
