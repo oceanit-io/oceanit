@@ -4,6 +4,7 @@ import { ScrollContext } from "../utils/scroll-observer";
 import sombraIzq from "../public/images/sombreado-izq.png";
 import sombraDer from "../public/images/sombreado-der.png";
 import Image from "next/image";
+import { useTranslation } from "next-i18next";
 
 const opacityForBlock = (sectionProgress, blockNo) => {
   const progress = sectionProgress - blockNo;
@@ -18,6 +19,7 @@ const bgColorForBlock = (sectionProgress, blockNo) => {
 };
 
 const Skills = () => {
+  const { t } = useTranslation("");
   const { scrollY } = useContext(ScrollContext);
   const refContainer = useRef(null);
 
@@ -67,10 +69,9 @@ const Skills = () => {
                 opacity: opacityForBlock(progress, 0),
               }}
             >
-              Contamos con un equipo altamente capacitado y experimentado en una
-              variedad de habilidades críticas para el{" "}
+              {t("TextSkills1")}{" "}
               <span className="bg-[#FFC10E] text-gray-900">
-                éxito en el mundo digital.
+                {t("TextSkills2")}
               </span>
             </div>
             <span
@@ -79,10 +80,9 @@ const Skills = () => {
                 opacity: opacityForBlock(progress, 1),
               }}
             >
-              Comprendemos las tendencias y desafíos actuales en el mundo
-              digital y{" "}
+              {t("TextSkills3")}{" "}
               <span className="bg-[#FFC10E] text-gray-900">
-                adaptamos nuestras estrategias y soluciones en consecuencia.
+                {t("TextSkills4")}
               </span>
             </span>
             <span
@@ -91,10 +91,9 @@ const Skills = () => {
                 opacity: opacityForBlock(progress, 2),
               }}
             >
-              Trabajamos con nuestros clientes para entender sus necesidades y
-              objetivos para así{" "}
+              {t("TextSkills5")}{" "}
               <span className="bg-[#FFC10E] text-gray-900">
-                desarrollar soluciones personalizadas efectivas.
+                {t("TextSkills6")}
               </span>
             </span>
           </div>

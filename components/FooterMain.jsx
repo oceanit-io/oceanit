@@ -2,8 +2,10 @@ import React from "react";
 import { Footer } from "flowbite-react";
 import { BsFacebook, BsInstagram, BsTwitter, BsGithub } from "react-icons/bs";
 import logoAzul from "../public/images/logo-oceanit-blue.png";
+import { useTranslation } from "next-i18next";
 
 const FooterMain = () => {
+  const { t } = useTranslation("");
   return (
     <div className="bg-[#001138]">
       <Footer container={true}>
@@ -26,17 +28,21 @@ const FooterMain = () => {
                 </Footer.LinkGroup>
               </div> */}
               <div>
-                <Footer.Title title="Síguenos" />
+                <Footer.Title title={t("TextFooter1")} />
                 <Footer.LinkGroup col={true}>
-                  <Footer.Link href="https://www.instagram.com/oceanit.io/">Instagram</Footer.Link>
-                  <Footer.Link href="https://github.com/oceanit-io">Github</Footer.Link>
+                  <Footer.Link href="https://www.instagram.com/oceanit.io/">
+                    Instagram
+                  </Footer.Link>
+                  <Footer.Link href="https://github.com/oceanit-io">
+                    Github
+                  </Footer.Link>
                 </Footer.LinkGroup>
               </div>
               <div>
-                <Footer.Title title="Idioma" />
+                <Footer.Title title={t("TextFooter2")} />
                 <Footer.LinkGroup col={true}>
-                  <Footer.Link href="#">Español</Footer.Link>
-                  <Footer.Link href="#">Ingles</Footer.Link>
+                  <Footer.Link href="/">Español</Footer.Link>
+                  <Footer.Link href="/br">Brasileiro</Footer.Link>
                 </Footer.LinkGroup>
               </div>
             </div>
@@ -46,9 +52,15 @@ const FooterMain = () => {
             <Footer.Copyright href="#" by="Oceantit™" year={2023} />
             <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
               {/* <Footer.Icon href="#" icon={BsFacebook} /> */}
-              <Footer.Icon href="https://www.instagram.com/oceanit.io/" icon={BsInstagram} />
+              <Footer.Icon
+                href="https://www.instagram.com/oceanit.io/"
+                icon={BsInstagram}
+              />
               {/* <Footer.Icon href="#" icon={BsTwitter} /> */}
-              <Footer.Icon href="https://github.com/oceanit-io" icon={BsGithub} />
+              <Footer.Icon
+                href="https://github.com/oceanit-io"
+                icon={BsGithub}
+              />
             </div>
           </div>
         </div>
