@@ -7,8 +7,10 @@ import web from "../public/images/web.png";
 import webResponsive from "../public/images/webResponsive.png";
 import automatization from "../public/images/automatization.png";
 import marketing from "../public/images/marketing.png";
+import { useTranslation } from "next-i18next";
 
 const Works = () => {
+  const { t } = useTranslation("");
   return (
     <TileWrapper numOfPages={4}>
       <TileBackground>
@@ -21,9 +23,9 @@ const Works = () => {
             <WorkContainer>
               <WorkLeft progress={progress}>
                 <div className="text-2xl md:text-5xl pt-12 md:pt-0">
-                  <div>Ofrecemos</div>
+                  <div>{t("TextWorks1")}</div>
                   <div className="font-semibold tracking-tight ">
-                    Desarrollo de aplicaciones móviles personalizadas
+                    {t("TextWorks2")}
                   </div>
                 </div>
               </WorkLeft>
@@ -43,9 +45,9 @@ const Works = () => {
             <WorkContainer>
               <WorkLeft progress={progress}>
                 <div className="text-xl md:text-5xl pt-9 md:pt-0">
-                  <div>Ofrecemos</div>
+                  <div>{t("TextWorks1")}</div>
                   <div className="font-semibold tracking-tight ">
-                    Desarrollo de páginas web atractivas y fáciles de usar.
+                    {t("TextWorks3")}
                   </div>
                 </div>
               </WorkLeft>
@@ -82,10 +84,9 @@ const Works = () => {
             <WorkContainer>
               <WorkLeft progress={progress}>
                 <div className="text-xl md:text-5xl pt-9 md:pt-0">
-                  <div>Ofrecemos</div>
+                  <div>{t("TextWorks1")}</div>
                   <div className="font-semibold tracking-tight ">
-                    Marketing digital efectivo para aumentar su alcance y
-                    visibilidad en línea.
+                    {t("TextWorks4")}
                   </div>
                 </div>
               </WorkLeft>
@@ -111,10 +112,9 @@ const Works = () => {
             <WorkContainer>
               <WorkLeft progress={progress}>
                 <div className="text-xl md:text-5xl">
-                  <div>Ofrecemos</div>
+                  <div>{t("TextWorks1")}</div>
                   <div className="font-semibold tracking-tight ">
-                    Automatización de procesos para mejorar la eficiencia de su
-                    negocio.
+                    {t("TextWorks5")}
                   </div>
                 </div>
               </WorkLeft>

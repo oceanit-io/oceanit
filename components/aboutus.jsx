@@ -1,7 +1,9 @@
 import React from "react";
 import { BsLinkedin, BsInstagram, BsGithub } from "react-icons/bs";
+import { useTranslation } from "next-i18next";
 
 const AboutUs = () => {
+  const { t } = useTranslation("");
   return (
     <section
       className={`flex flex-col bg-[#0038B899] pt-20 pb-24 text-3xl md:text-4xl backdrop-blur-md border-t-gray-400 border-t backdrop-filter -mb-24`}
@@ -10,31 +12,21 @@ const AboutUs = () => {
       <div className="cotainer mx-auto px-11">
         <p className="leading-normal sm:leading-normal max-w-5xl mx-auto text-3xl sm:text-4xl tracking-tight ">
           <span className="bg-[#FFC10E] text-gray-900">
-            <strong>
-              Ocean-it es una agencia digital enfocada en Desarrollo Web &
-              Marketing Digital{" "}
-            </strong>{" "}
-            con sede física en Buenos Aires y presencia en toda LATAM, en
-            constante crecimiento desde que inició en el año 2020.
+            <strong>{t("TextAboutUs1")} </strong> {t("TextAboutUs2")}
           </span>
 
-          <span className="text-white">
-            {" "}
-            Nuestros productos y servicios comprenden un abanico que nos ha
-            posibilitado ser elegidos tanto por emprendedores cómo por medianas
-            empresas que han confiado en nuestra labor.
-          </span>
+          <span className="text-white"> {t("TextAboutUs3")}</span>
         </p>
       </div>
 
       <div className="container mx-auto px-11 text-center mt-20">
         <div>
           <h1 className="text-5xl sm:text-6xl font-bold bg-[#FFC10E] text-gray-900 max-w-md mx-auto">
-            Nuestro Equipo
+            {t("TextAboutUs4")}
           </h1>
         </div>
         <div className="mt-8 text-2xl sm:text-4xl mx-auto text-white">
-          Conoce Nuestro Dedicado y Creativo Equipo
+          {t("TextAboutUs5")}
         </div>
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-6 ">
           <div>
@@ -72,11 +64,7 @@ const AboutUs = () => {
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full px-4">
                       <p className="font-light leading-relaxed text-slate-600 mb-4 text-sm">
-                        &#34;Gaby&#34; la CEO de Ocean IT es una líder
-                        experimentada con un enfoque emprendedor y orientado al
-                        cliente, que ha liderado el desarrollo de estrategias
-                        innovadoras para ayudar a los clientes a alcanzar sus
-                        objetivos digitales.
+                        {t("TextAboutUs6")}
                       </p>
 
                       <div className="flex justify-center">
@@ -131,11 +119,7 @@ const AboutUs = () => {
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full px-4">
                       <p className="font-light leading-relaxed text-slate-600 mb-4 text-sm">
-                        Nuestro desarrollador ofrece soluciones personalizadas y
-                        eficaces gracias a su amplio conocimiento en diversos
-                        lenguajes de programación y plataformas tecnológicas, y
-                        garantiza la calidad y escalabilidad de los productos y
-                        servicios.
+                        {t("TextAboutUs7")}
                       </p>
 
                       <div className="flex justify-center">
@@ -190,11 +174,7 @@ const AboutUs = () => {
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full px-4">
                       <p className="font-light leading-relaxed text-slate-600 mb-4 text-sm">
-                        Nuestra Creative Strategist es experta en marketing y
-                        diseño con experiencia en creación de estrategias
-                        publicitarias exitosas. Diseñando y ejecutando
-                        estrategias creativas para ayudar a alcanzar objetivos
-                        de negocio.
+                        {t("TextAboutUs8")}
                       </p>
 
                       <div className="flex justify-center">
@@ -249,11 +229,7 @@ const AboutUs = () => {
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full px-4">
                       <p className="font-light leading-relaxed text-slate-600 mb-4 text-sm">
-                        Talentosa y experimentada en el diseño de medios
-                        visuales. Crea diseños atractivos y efectivos. Además,
-                        es experta en creación de contenido visual para medios
-                        impresos y digitales. Su experiencia la hace una valiosa
-                        profesional.
+                        {t("TextAboutUs9")}
                       </p>
 
                       <div className="flex justify-center">
