@@ -30,7 +30,7 @@ const AboutUs = () => {
         </div>
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-6 ">
           <div>
-            <div className="relative max-w-md mx-auto md:max-w-2xl mt-6 min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-xl mt-16">
+            <div className="relative max-w-md mx-auto md:max-w-2xl mt-6 min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-xl mt-16 min-h-[500px]">
               <div className="px-6">
                 <div className="flex flex-wrap justify-center">
                   <div className="w-full flex justify-center">
@@ -85,7 +85,7 @@ const AboutUs = () => {
             </div>
           </div>
           <div>
-            <div className="relative max-w-md mx-auto md:max-w-2xl mt-6 min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-xl mt-16">
+            <div className="relative max-w-md mx-auto md:max-w-2xl mt-6 min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-xl mt-16 min-h-[500px]">
               <div className="px-6">
                 <div className="flex flex-wrap justify-center">
                   <div className="w-full flex justify-center">
@@ -140,7 +140,7 @@ const AboutUs = () => {
             </div>
           </div>
           <div>
-            <div className="relative max-w-md mx-auto md:max-w-2xl mt-6 min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-xl mt-16">
+            <div className="relative max-w-md mx-auto md:max-w-2xl mt-6 min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-xl mt-16 min-h-[500px]">
               <div className="px-6">
                 <div className="flex flex-wrap justify-center">
                   <div className="w-full flex justify-center">
@@ -195,7 +195,7 @@ const AboutUs = () => {
             </div>
           </div>
           <div>
-            <div className="relative max-w-md mx-auto md:max-w-2xl mt-6 min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-xl mt-16">
+            <div className="relative max-w-md mx-auto md:max-w-2xl mt-6 min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-xl mt-16 min-h-[500px]">
               <div className="px-6">
                 <div className="flex flex-wrap justify-center">
                   <div className="w-full flex justify-center">
