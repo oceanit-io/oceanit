@@ -9,8 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "flowbite": "^1.5.3",
-    "flowbite-react": "^0.1.11",
+    "@headlessui/react": "^1.7.15",
+    "flowbite": "^1.7.0",
+    "flowbite-react": "^0.4.11",
     "framer-motion": "^7.3.6",
     "i18next": "^22.5.0",
     "next": "12.2.5",
