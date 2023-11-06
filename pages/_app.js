@@ -13,24 +13,41 @@ function MyApp({ Component, pageProps }) {
   });
 
   return (
-    <SizeObserver>
-      <ScrollObserver>
-        <motion.div
-          style={{
-            scaleX,
-            position: "fixed",
-            top: 0,
-            left: 0,
-            right: 0,
-            height: "5px",
-            background: "#FE824F",
-            transformOrigin: "0%",
-            zIndex: 100,
-          }}
-        />
-        <Component {...pageProps} />
-      </ScrollObserver>
-    </SizeObserver>
+    <>
+      <Script
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=G-TT3620V7M7`}
+      />
+
+      <Script strategy="lazyOnload">
+        {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config',  'G-TT3620V7M7', {
+                    page_path: window.location.pathname,
+                    });
+                `}
+      </Script>
+      <SizeObserver>
+        <ScrollObserver>
+          <motion.div
+            style={{
+              scaleX,
+              position: "fixed",
+              top: 0,
+              left: 0,
+              right: 0,
+              height: "5px",
+              background: "#FE824F",
+              transformOrigin: "0%",
+              zIndex: 100,
+            }}
+          />
+          <Component {...pageProps} />
+        </ScrollObserver>
+      </SizeObserver>
+    </>
   );
 }
 
