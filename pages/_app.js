@@ -3,6 +3,7 @@ import ScrollObserver from "../utils/scroll-observer";
 import { useScroll, useSpring, motion } from "framer-motion";
 import SizeObserver from "../utils/size-observer";
 import { appWithTranslation } from "next-i18next";
+import Script from "next/script";
 
 function MyApp({ Component, pageProps }) {
   const { scrollYProgress } = useScroll();
