@@ -47,8 +47,10 @@ const Nav = () => {
           />
         </Navbar.Brand>
         <div className="flex md:order-2 items-center justify-center">
-          <Button>
-            {" "}
+          <Button
+            color="custom"
+            className="bg-[#0038b8] hover:bg-[#FFC10E] hover:text-[black] text-white"
+          >
             <a href="#contact">{t("TextNavbar1")}</a>
           </Button>
           <Menu as="div" className="relative inline-block text-left">
