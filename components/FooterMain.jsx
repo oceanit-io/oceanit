@@ -42,7 +42,7 @@ const FooterMain = () => {
                 <Footer.Title title={t("TextFooter2")} />
                 <Footer.LinkGroup col={true}>
                   <Footer.Link href="/">Español</Footer.Link>
-                  <Footer.Link href="/br">Brasileiro</Footer.Link>
+                  <Footer.Link href="/br">Português</Footer.Link>
                 </Footer.LinkGroup>
               </div>
             </div>
